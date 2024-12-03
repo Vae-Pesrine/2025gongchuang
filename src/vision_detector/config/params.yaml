@@ -1,0 +1,12 @@
+camera:
+  is_calibration: false
+  # is_calibration: true
+
+  camera_ip: "2"
+
+  frame_width: 640
+  frame_height: 480
+  fps: 30
+  exposure: 166
+  saturation: 36
+  contrast: 0

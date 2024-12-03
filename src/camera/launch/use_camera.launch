@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="camera" type="use_camera" name="use_camera" output="screen" />
+    <!-- <node pkg="camera" type="hsv" name="hsv" output="screen" /> -->
+</launch>
