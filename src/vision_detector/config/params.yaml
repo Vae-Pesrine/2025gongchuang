@@ -1,6 +1,6 @@
 camera:
-  is_calibration: false
-  # is_calibration: true
+  # is_calibration: false
+  is_calibration: true
 
   camera_ip: "2"
 

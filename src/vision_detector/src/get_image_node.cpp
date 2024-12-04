@@ -111,6 +111,12 @@ int main(int argc, char *argv[])
             std::cerr << "Error: camerad frame is empty!" << std::endl;
         }
         cv::imshow("test", frame);
+
+        if(is_calibration){
+            int key = cv::waitKey(500);
+            if(key == 'c') cv::imwrite("../data/x.jpg", frame);
+        }
+
         if(cv::waitKey(30) > 0)
         {
             std::cout << "frame size = " << frame.rows << "x" << frame.cols << std::endl;

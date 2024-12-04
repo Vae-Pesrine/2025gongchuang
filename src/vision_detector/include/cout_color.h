@@ -1,5 +1,5 @@
-#ifndef COUT_COLOR_H
-#define COUT_COLOR_H
+#ifndef COUT_COLOR_H_
+#define COUT_COLOR_H_
 
 #include <string>
 const std::string RESET = "\033[0m";
@@ -11,4 +11,4 @@ const std::string BLUE = "\033[34m";
 const std::string PURPLE_RED = "\033[35m";
 const std::string WHITE = "\033[37m"; 
 
-#endif
+#endif //COUT_COLOR_H_
